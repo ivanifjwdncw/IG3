@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
+
+# Block things we haven't built yet so Google doesn't waste crawl budget
+# (nginx returns 404 for these paths but an explicit rule is clearer)
 Disallow: /admin
 Disallow: /api
 
-Sitemap: https://rustyloot.example.com/sitemap.xml
+Sitemap: https://rustylootcasino.com/sitemap.xml

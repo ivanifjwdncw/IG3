@@ -49,7 +49,7 @@ python3 -m http.server 8080
 
 Drop the whole folder into any static host (Netlify, Vercel, Cloudflare Pages,
 S3+CloudFront, GitHub Pages). Before deploying, replace
-`https://rustyloot.example.com` in `index.html`, `sitemap.xml`, `robots.txt`
+`https://rustylootcasino.com` in `index.html`, `sitemap.xml`, `robots.txt`
 with your production domain.
 
 ## Credits
