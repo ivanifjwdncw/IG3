@@ -1,0 +1,14 @@
+{
+    "name": "RustyLoot",
+    "short_name": "RustyLoot",
+    "description": "Online casino with Plinko, Mines, Coinflip, Jackpot, Wheel, Upgrader and PVP Mines.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#131620",
+    "theme_color": "#131620",
+    "icons": [
+        { "src": "assets/branding/logo-small.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+    ],
+    "categories": ["games", "entertainment"],
+    "orientation": "portrait-primary"
+}

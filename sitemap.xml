@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://rustyloot.example.com/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rustyloot.example.com/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://rustyloot.example.com/ru/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://rustyloot.example.com/es/" />
+    </url>
+    <url><loc>https://rustyloot.example.com/plinko</loc><priority>0.9</priority></url>
+    <url><loc>https://rustyloot.example.com/mines</loc><priority>0.9</priority></url>
+    <url><loc>https://rustyloot.example.com/coinflip</loc><priority>0.9</priority></url>
+    <url><loc>https://rustyloot.example.com/jackpot</loc><priority>0.9</priority></url>
+    <url><loc>https://rustyloot.example.com/wheel</loc><priority>0.9</priority></url>
+    <url><loc>https://rustyloot.example.com/upgrader</loc><priority>0.9</priority></url>
+    <url><loc>https://rustyloot.example.com/pvp-mines</loc><priority>0.9</priority></url>
+    <url><loc>https://rustyloot.example.com/free-case</loc><priority>0.7</priority></url>
+    <url><loc>https://rustyloot.example.com/rakeback</loc><priority>0.7</priority></url>
+    <url><loc>https://rustyloot.example.com/fairness</loc><priority>0.6</priority></url>
+    <url><loc>https://rustyloot.example.com/responsible-gambling</loc><priority>0.5</priority></url>
+    <url><loc>https://rustyloot.example.com/terms</loc><priority>0.4</priority></url>
+    <url><loc>https://rustyloot.example.com/privacy</loc><priority>0.4</priority></url>
+</urlset>
