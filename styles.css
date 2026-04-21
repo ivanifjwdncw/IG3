@@ -288,6 +288,12 @@ h1, h2, h3, h4 { margin: 0; font-family: var(--font-display); font-weight: 600; 
     padding: 2px;
     overflow: visible;
     box-shadow: 0 10px 40px -20px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 48px -20px rgba(0,0,0,.6);
 }
 .hero-bg {
     position: absolute; inset: 2px;

@@ -86,7 +86,7 @@
         if (e.button !== 0) return;
 
         var target = e.target.closest && e.target.closest(
-            "a, button, [role='button'], [role='tab'], .game-card, .hero-arrow, .menu-btn, .lang-btn"
+            "a, button, [role='button'], [role='tab'], .game-card, .hero, .hero-inner, .hero-arrow, .menu-btn, .lang-btn"
         );
         if (!target) return;
 
